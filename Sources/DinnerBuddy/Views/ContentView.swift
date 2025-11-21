@@ -22,7 +22,7 @@ struct ContentView: View {
             }
             .background(Color(.systemGroupedBackground))
             .navigationBarHidden(true)
-            .onChange(of: viewModel.preference) { _ in viewModel.refreshResults() }
+            .onChange(of: viewModel.preference) { _, _ in viewModel.refreshResults() }
         }
     }
 
