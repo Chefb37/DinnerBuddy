@@ -1,1 +1,12 @@
-#DinnerBuddy README
+# DinnerBuddy
+
+DinnerBuddy is a SwiftUI concept app that helps you decide what to make for dinner. Set quick filters (quick, vegetarian, vegan, gluten-free) and pick favorite cuisines to get curated ideas with ingredients and step-by-step directions.
+
+## Structure
+- `Sources/DinnerBuddy/DinnerBuddyApp.swift`: App entry point.
+- `Sources/DinnerBuddy/Models`: Simple models for dinner ideas and preferences.
+- `Sources/DinnerBuddy/ViewModels`: In-memory idea list with filtering and suggestion logic.
+- `Sources/DinnerBuddy/Views`: SwiftUI views for preferences, suggestions, and idea cards.
+
+## Run
+Open the folder in Xcode (15+) and build the `DinnerBuddy` target as an iOS app. The included `#Preview` blocks let you view the layout in Xcode previews.
